@@ -1,0 +1,24 @@
+
+body {
+    font-family: Tahoma, Arial, sans-serif; /* písmo */
+}
+
+/* vodorovná linka */
+hr {
+    border: 1px solid lightblue;
+}
+
+img {
+    width: 300px; /* šířka */
+}
+
+/* vzhled tabulky */
+table, tr, th, td {
+    border: 1px solid blue;
+    border-collapse: collapse;
+    padding: 2px 5px;
+}
+
+li::marker {
+    color: blue; /* Nastaví barvu odrážky */
+}
